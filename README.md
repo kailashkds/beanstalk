@@ -28,6 +28,7 @@ https://ap-south-1.console.aws.amazon.com/acm/home?region=ap-south-1#/certificat
 
 ***5) Zip your folder and upload***
 Create a zip file using below code. 
+
 ``zip ../symfony-default.zip -r * .[^.]* -x "vendor/*"``
 
 Here {{ symfony-default.zip }} can be your zip file name
